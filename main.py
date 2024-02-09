@@ -277,8 +277,8 @@ DATAFONT = pygame.font.SysFont("couriernew", 13, True)
 EVENTLOGFONT = pygame.font.SysFont("couriernew", 13, True)
 NAMEFONT = pygame.font.SysFont("couriernew", 35, True, True)
 
-ASSESTSPATH = os.path.abspath(os.getcwd()) + "/Assets/" #"B:/HuangJiaQi/Python/Rocket Simulation Pygame/Assets/"
-ROCKETSPATH = os.path.abspath(os.getcwd()) + "/Rockets/" #"B:/HuangJiaQi/Python/Rocket Simulation Pygame/Rockets/"
+ASSESTSPATH = os.path.abspath(os.getcwd()) + "/Assets/" 
+ROCKETSPATH = os.path.abspath(os.getcwd()) + "/Rockets/"
 
 class EventLog:
   def __init__(self, message):
